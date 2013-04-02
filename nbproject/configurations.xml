@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="84">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df name="buenos-exam" root=".">
+      <df name="drivers">
+        <in>_timer.S</in>
+        <in>bootargs.c</in>
+        <in>bootargs.h</in>
+        <in>device.c</in>
+        <in>device.h</in>
+        <in>disk.c</in>
+        <in>disk.h</in>
+        <in>disksched.c</in>
+        <in>disksched.h</in>
+        <in>drivers.c</in>
+        <in>drivers.h</in>
+        <in>gbd.h</in>
+        <in>gcd.h</in>
+        <in>gnd.h</in>
+        <in>metadev.c</in>
+        <in>metadev.h</in>
+        <in>polltty.c</in>
+        <in>polltty.h</in>
+        <in>timer.c</in>
+        <in>timer.h</in>
+        <in>tty.c</in>
+        <in>tty.h</in>
+        <in>yams.h</in>
+      </df>
+      <df name="fs">
+        <in>filesystems.c</in>
+        <in>filesystems.h</in>
+        <in>tfs.c</in>
+        <in>tfs.h</in>
+        <in>vfs.c</in>
+        <in>vfs.h</in>
+      </df>
+      <df name="init">
+        <in>_boot.S</in>
+        <in>main.c</in>
+      </df>
+      <df name="kernel">
+        <in>_interrupt.S</in>
+        <in>_spinlock.S</in>
+        <in>asm.h</in>
+        <in>assert.h</in>
+        <in>config.h</in>
+        <in>cswitch.S</in>
+        <in>cswitch.h</in>
+        <in>exception.c</in>
+        <in>exception.h</in>
+        <in>halt.c</in>
+        <in>halt.h</in>
+        <in>idle.S</in>
+        <in>idle.h</in>
+        <in>interrupt.c</in>
+        <in>interrupt.h</in>
+        <in>kmalloc.c</in>
+        <in>kmalloc.h</in>
+        <in>panic.c</in>
+        <in>panic.h</in>
+        <in>scheduler.c</in>
+        <in>scheduler.h</in>
+        <in>semaphore.c</in>
+        <in>semaphore.h</in>
+        <in>sleepq.c</in>
+        <in>sleepq.h</in>
+        <in>spinlock.h</in>
+        <in>synch.h</in>
+        <in>thread.c</in>
+        <in>thread.h</in>
+      </df>
+      <df name="lib">
+        <in>bitmap.c</in>
+        <in>bitmap.h</in>
+        <in>debug.c</in>
+        <in>debug.h</in>
+        <in>libc.c</in>
+        <in>libc.h</in>
+        <in>rand.S</in>
+        <in>registers.h</in>
+        <in>types.h</in>
+        <in>xprintf.c</in>
+      </df>
+      <df name="net">
+        <in>network.c</in>
+        <in>network.h</in>
+        <in>pop.c</in>
+        <in>pop.h</in>
+        <in>protocols.c</in>
+        <in>protocols.h</in>
+        <in>socket.c</in>
+        <in>socket.h</in>
+        <in>sop.h</in>
+      </df>
+      <df name="proc">
+        <in>_exit.S</in>
+        <in>elf.c</in>
+        <in>elf.h</in>
+        <in>exception.c</in>
+        <in>exit.h</in>
+        <in>process.c</in>
+        <in>process.h</in>
+        <in>syscall.c</in>
+        <in>syscall.h</in>
+        <in>usr_semaphore.c</in>
+        <in>usr_semaphore.h</in>
+      </df>
+      <df name="tests">
+        <in>_syscall.S</in>
+        <in>buenos-crew.c</in>
+        <in>calc.c</in>
+        <in>crt.S</in>
+        <in>exec.c</in>
+        <in>halt.c</in>
+        <in>hw.c</in>
+        <in>lib.c</in>
+        <in>lib.h</in>
+        <in>threads.c</in>
+      </df>
+      <df name="util">
+        <in>tfstool.c</in>
+        <in>tfstool.h</in>
+      </df>
+      <df name="vm">
+        <in>_tlb.S</in>
+        <in>pagepool.c</in>
+        <in>pagepool.h</in>
+        <in>pagetable.h</in>
+        <in>tlb.c</in>
+        <in>tlb.h</in>
+        <in>vm.c</in>
+        <in>vm.h</in>
+      </df>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+      </toolsSet>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f Makefile</buildCommand>
+          <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
+          <executablePath></executablePath>
+          <cTool>
+            <incDir>
+              <pElem></pElem>
+            </incDir>
+          </cTool>
+        </makeTool>
+      </makefileType>
+      <item path="drivers/bootargs.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="drivers/device.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="drivers/disk.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="drivers/disksched.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="drivers/drivers.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="drivers/metadev.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="drivers/polltty.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="drivers/timer.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="drivers/tty.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <folder path="buenos-exam/drivers">
+        <cTool>
+          <incDir>
+            <pElem>drivers</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="buenos-exam/fs">
+        <cTool>
+          <incDir>
+            <pElem>fs</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="buenos-exam/init">
+        <cTool>
+          <incDir>
+            <pElem>init</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="buenos-exam/kernel">
+        <cTool>
+          <incDir>
+            <pElem>kernel</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="buenos-exam/lib">
+        <cTool>
+          <incDir>
+            <pElem>lib</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="buenos-exam/net">
+        <cTool>
+          <incDir>
+            <pElem>net</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="buenos-exam/proc">
+        <cTool>
+          <incDir>
+            <pElem>proc</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="buenos-exam/tests">
+        <cTool>
+          <incDir>
+            <pElem>tests</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="buenos-exam/util">
+        <cTool>
+          <incDir>
+            <pElem>util</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="buenos-exam/vm">
+        <cTool>
+          <incDir>
+            <pElem>vm</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <item path="fs/filesystems.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="fs/tfs.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="fs/vfs.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="init/main.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="kernel/exception.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="kernel/halt.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="kernel/interrupt.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="kernel/kmalloc.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="kernel/panic.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="kernel/scheduler.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="kernel/semaphore.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="kernel/sleepq.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="kernel/thread.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="lib/bitmap.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="lib/debug.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="lib/libc.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="lib/xprintf.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="net/network.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="net/pop.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="net/protocols.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="net/socket.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="proc/elf.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="proc/exception.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="proc/process.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="proc/syscall.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="proc/usr_semaphore.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="tests/buenos-crew.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="tests/calc.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="tests/exec.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="tests/halt.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="tests/hw.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="tests/lib.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="tests/threads.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="util/tfstool.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="vm/pagepool.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="vm/tlb.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="vm/vm.c" ex="false" tool="0" flavor2="2">
+        <cTool>
+        </cTool>
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
